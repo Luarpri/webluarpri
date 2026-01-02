@@ -1,18 +1,73 @@
-<!-- Esto no esta terminado -->
 <html>
-  <head>
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-  <title>web</title>
+<head>
+    <title>hackeando un gps (spoiler: no sirve para nada)</title>
+    <icon rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <meta charset="UTF-8">
 </head>
-  <center>
-    <div>
-<style>
-body {
-  background-image: url('../img/bg.png');
-}
-   <h1 style="color: white;">Este GPS corre windows</h1>
-   <p style="color: white;">Uno de los aparatos que me gustaba mucho de niño (y cuando digo niño me refiero a como hace 4 años mas o menos) era un GPS que le dieron a mi padre, lo usaba realmente por ninguna razon, solo para jugetear con esta interfaz que tenia</p><br>
-   <p style="color: white;">Pero un dia, cuando ya estaba mayorcito (y cuando digo mayorcito debio ser hace 3 años mas o menos) me salio un video de youtube de <a href="https://www.youtube.com/watch?v=_2XTDzsdBYQ">alguien corriendo windows en su gps</a> y me dije, ¿Podria hacerlo yo tambien? Supongo que ya es hora de hablar de mi experiencia y si vale la pena en la actualidad</p><br>
-</p>
+<body>
+    <h3 style="text-align: center;">Publicado el 2 de enero de 2026</h3>
+    <p>(soy demasiado vago para poner el texto en blanco y poner el fondo)</p>
+<h1>Hackeando un GPS (spoiler: no sirve para nada)</h1>
+<p>Hace unos años, mirando en un cajon, encontre esto:</p>
+<img src="https://cloud10.todocoleccion.online/segunda-mano/tc/2020/03/04/12/195948302_tcimg_63360E25.jpg" alt="gps"><br>
+<h4>esta no es mi foto, pero es exactamente el mismo modelo</h4>
+<p>Yo sabia que era un GPS, pero realmente no lo use para nada, solo lo usaba para tontear</p>
+<p>Pero ademas, toqueteando la tarjeta SD en solo lectura, logre que saliera una ventanita del windows (no tengo una foto, pero creerme, paso)</p>
+<p>Esa cosa corria Windows</p>
+<h2>Como hackearlo</h2>
+<p>Es muy simple, el GPS esta programado para cargar "MobileNavigator/MovileNavigator.exe" despues de la calibracion, asi es solo cambiarlo por el ejecutable del explorador de archivos, y ya esta, ya tienes windows</p>
+<img src="img/desktop.jpeg" alt="gpswin"><br>
+<h4>y, ya?</h4>
+<p>Y ya esta, para eso sirve, no hay conexion a Internet, el sistema operativo fue abandonado como hace 20 años, fin</p>
+<p>O quizas... puede que haya alguna posibilidad?</p>
+<h2>Software</h2>
+<p>Encontrar software para este GPS puede ser complicadete, el sistema operatio esta muerto y la mayoria de software fue actualizado por ultima vez como hace 15 años, una vez me encontre un wack-a-mole con gore que fue hecho en el 2000</p>
+<p>Si quieres software, te recomiendo <a href="https://www.hpcfactor.com/">HPCFactor</a> (necesitas una cuenta para descargar los programas)</p>
+<p>Encontre una vez un link de archive.org con cientos de programas que mantengo, pero no encuentro el link ahora</p>
+<h3>Aplicaciones</h3>
+<p>Esta es mi lista de top 5 aplicaciones que recomiendo (y que encontre en el paquete)</p>
+<ul>
+ <li>MobileTaskManager, administrador de tareas (no funciona e mi GPS)</li>
+ <li>GAPI for Handheld PC’s, el equivalente de DirectX en Windows Ce, vas a necesitarlo si quieres ejecutar juegos y emuladores</li>
+ <li>Rotate, rota la pantalla (para algunos juegos de PocketPC, que se ejecutaban en vertical)</li>
+ <li>ShowTaskbar, oculta/muestra la barra de tareas</li>
+ <li>TCPMP, el VLC de los PocketPC</li>
+</ul>
+<h3>Juegos</h3>
+<p>Puesto que el GPS corre Windows CE y el PocketPC tambien, los juegos son binariamente compatibles entre si, aqui tienes a mi GPS corriendo Bejeweled 2</p>
+<img src="img/bejeweled2.jpeg" alt="bejeweled2gps"><br>
+<h5><b>WELCOM TO BIYUEL TOO</b></h5>
+<p>Ten en cuenta que muchos de los juegos tenian un periodo de prueba, en donde en varias ejectuaciones, te pedian pagar, el problema es que la mayoria de los creadores posiblemente esten retirados, puede que incluso muertos</p>
+<p>Otro juego que probe fue Tangled Bugs, y... madre mia, es adictivo, ¡y ni siquiera hay lootboxs!</p>
+<p>Creeme, con algunos de estos juegos, puedes pasar un buen rato</p>
+<h3>Emuladores</h3>
+<p>Asi es, esta cosa puede correr emuladores, aunque pocos.</p>
+<p>El emulador que puedes probar es MorphGear, que emula</p>
+<ul>
+ <li>GameBoy</li>
+ <li>GameBoy Color</li>
+ <li>GameBoy Advance (este no funciona siquiera en el GPS y tengo que usar uno separado)</li>
+ <li>Master System</li>
+ <li>GameGear</li>
+ <li>Genesis</li>
+ <li>NES</li>
+ <li>SNES (lento en mi maquina)</li>
+ <li>TurboGrafx 16</li>
+ </ul>
+ <p>Como el emulador de GBA no funciona en el GPS, tuve que usar otro, y OH DIOS, iba horrible, totalmente injugable</p>
+ <p>Volviendo a MorphGear, iba bien, probe NES, GameGear, GameBoy y SNES, todas iban bien, execpto SNES, que parecia la musica de la pantalla de inicio de SMW era una nana para bebes</p>
+ <p>Ademas, como no habia teclado, tenia que usar el touchscreen para jugar, lo que no es muy comodo</p>
+ <p>Pero el gamepad virtual no soportaba mas de dos pulsaciones al mismo tiempo, asi queeeee... pues todo injugable</p>
+<h2>Multimedia</h2>
+<p>Por ultimo, quiero echarle un vistazo a las cosas multimedia, si transformas un video a .3gp, funciona perfectamente</p>
+<p>La musica tambien funciona, aunque a baja calidad, no soy audiofilo ni nada, pero se nota que la calidad es baja</p>
+<h2>Conclusiones</h2>
+<p>No sirve para nada</p>
+<p>Yo soy permisivo con los trastos, pero, en serio, no le encuentro ninguna utilidad a esto</p>
+<p>Los mobiles hacen esto muchisimo mejor que esto, y mil cosas mas</p>
+<p>Como mucho, le encontraria utilidad a los juegos, ya que no conozco ningun dispositivo que pueda emular Windows CE (sin contar las pc portatiles como la Steam Deck)</p>
+<p>Asi que nada, eso es todo, chau</p>, 
+<p>por cierto, si me encuentro al tio que hizo el wack-a-mole con gore, me tomo un selfie con el sin pensarlo, es mi idolo</p>
+<p>Espera, lo ultimo que publico fue en 2007, si, este tio esta fuera del radar</p>
 </body>
-</style>
+</html>
